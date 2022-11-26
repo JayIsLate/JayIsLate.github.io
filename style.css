@@ -16,6 +16,11 @@ body{
     text-align: center;
 }
 
+p{
+    color: white;
+    text-shadow: 5px 1px 4px rgb(56, 240, 96);
+}
+
 .socials{
     display: block;
     text-align: center;
