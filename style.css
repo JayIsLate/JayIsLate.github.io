@@ -19,7 +19,17 @@ body{
 .socials{
     display: block;
     text-align: center;
+    color: white;
+    text-shadow: 5px 1px 4px rgb(56, 240, 96);
 }
+
+.click{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
 
 #culture{
     color: white;
