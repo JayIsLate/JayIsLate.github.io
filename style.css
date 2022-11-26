@@ -1,0 +1,49 @@
+body{
+    background-color: khaki;
+    /*background-image: url(Images/BACK.png);
+    background-size: contain;*/
+}
+
+.title{
+    display: block;
+    text-align: center;
+}
+
+.info{
+    padding-top: 0pt;
+    color: black;
+    text-shadow: 5px 1px 4px white;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.socials{
+    display: block;
+    text-align: center;
+}
+
+.CPF{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Cray{
+    
+    padding-top: 10pt;
+    padding-bottom: 15pt;
+    background-image: url(Gifs/electric.gif);
+    background-repeat: repeat-x;
+    width: 100%;  
+}   
+
+.Absurd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.FOOTER{
+    display: block;
+    text-align: center;
+}
