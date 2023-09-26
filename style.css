@@ -45,6 +45,18 @@ p{
     justify-content: center;
 }
 
+.paintings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Collage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .Cray{
     
     padding-top: 10pt;
