@@ -1,7 +1,12 @@
 body{
-    background-image: url(Images/BACKGROUND.png);
+    /*background-image: url(Images/BACKGROUND.png);*/
+    background-image:url(Images/IMG_4208\ Small.png);
     background-size: contain;
 }
+
+body::-webkit-scrollbar{
+    display: none;
+  }
 
 .title{
     display: block;
@@ -51,11 +56,21 @@ p{
     justify-content: center;
 }
 
-.Collage{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+div.scroll-container {
+    /*background-color: #333;*/
+    overflow: auto;
+    white-space: nowrap;
+    /*padding: 10px;*/
+  }
+
+div.scroll-container::-webkit-scrollbar{
+    display: none;
+  }
+
+div.scroll-container img {
+    padding: 0px;
+  }
+
 
 .Cray{
     
@@ -67,10 +82,20 @@ p{
 }   
 
 .Absurd{
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;*/
+    overflow: auto;
+    white-space: nowrap;
 }
+
+.Absurd::-webkit-scrollbar{
+    display: none;
+  }
+
+.absurd img {
+    padding: 0px;
+  }
 
 .FOOTER{
     display: block;
